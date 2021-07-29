@@ -1,0 +1,16 @@
+Collection   stream()
+Arrays  stream()
+
+IntStream  Arrays.stream(int[] arr);
+DoubleStream Arrays.stream(double[] arr);
+LongStream	 Arrays.stream(long[] arr)
+
+Stream<String> Files.lines(Path path)
+Stream.of(T... values)
+
+DoubleStream DoubleStream.of(double... values)
+IntStream  IntStream.of(int... values)
+LongStream  LongStream(long... values)
+
+
+Object Pool: 
